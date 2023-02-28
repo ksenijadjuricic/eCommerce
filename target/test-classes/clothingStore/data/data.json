@@ -1,0 +1,45 @@
+[
+{    "firstName" : "Ksenija",
+		"lastName":"Djuricic",
+		"companyName":"Djuricic",
+	"address":"Topolska",
+		"apartmentNumber":"18",
+		"cityName":"Beograd",
+		"zip":"11000",
+	"phoneNumber":"123456",
+	"email":"dummyadresa@gmail.com",
+		"notes":"selenium Automation"
+
+},
+
+{
+		"firstName":"James",
+		"lastName":"Bond",
+		"companyName":"Universal Exports",
+		"address":"417 Longstream Road",
+		"apartmentNumber":"007",
+		"cityName":"London",
+		"zip":"E1 6AN",
+		"phoneNumber":"007007007",
+		"email":"bond.jamesbond@gmail.com",
+		"notes":"Shocking. Positively shocking."
+
+
+}
+
+{
+
+"headerPromoTextExpected":"The new collection is on the site!";
+	"linkTextText":"View it";
+	"searchTerm":"purple";
+	"pageTitleEng": "Home - Etualshop.com";
+	"pageTitleSrb": "Početna - Etualshop.com";
+	"newEmail":"ymakis@hotmail.com";
+}
+
+
+
+
+
+
+]

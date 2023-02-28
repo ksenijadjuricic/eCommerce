@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T00:20:36Z" name="Default suite" finished-at="2023-02-28T00:21:33Z" duration-ms="57514">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" name="submitOrder" class="eCommerce.test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-02-28T00:20:36Z" name="Default test" finished-at="2023-02-28T00:21:33Z" duration-ms="57514">
+      <class name="eCommerce.test.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:20:36Z" name="launchApplication" finished-at="2023-02-28T00:20:45Z" duration-ms="9086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:20:45Z" name="submitOrder" data-provider="getData" finished-at="2023-02-28T00:21:00Z" duration-ms="15037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=iy7A7ks@YvtEz2, product=ZARA COAT 3, email=dummyadresa@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:21:00Z" name="tearDown" finished-at="2023-02-28T00:21:01Z" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:21:01Z" name="launchApplication" finished-at="2023-02-28T00:21:07Z" duration-ms="5869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:21:07Z" name="submitOrder" data-provider="getData" finished-at="2023-02-28T00:21:23Z" duration-ms="16846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Palacinke123, product=ADIDAS ORIGINAL, email=ksenija.djuricic6@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:21:23Z" name="tearDown" finished-at="2023-02-28T00:21:24Z" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:21:24Z" name="launchApplication" finished-at="2023-02-28T00:21:31Z" duration-ms="6767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:21:31Z" name="OrderHistoryTest" finished-at="2023-02-28T00:21:33Z" depends-on-methods="eCommerce.test.SubmitOrderTest.submitOrder" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.test.SubmitOrderTest@2ab4bc72]" started-at="2023-02-28T00:21:33Z" name="tearDown" finished-at="2023-02-28T00:21:33Z" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eCommerce.test.SubmitOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

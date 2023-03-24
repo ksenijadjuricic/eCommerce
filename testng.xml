@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="clothingStore.testComponents.CustomeListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="clothingStore.tests.HomePageTest">
+      <methods>
+         <include name="validateTheNumberOfDisplayedFeaturedProducts"></include>
+         <include name="checkIfProductImageIsClickable"></include>
+         <include name="checkIfCategoryImagesAreClickable"></include>
+         <include name="checkPromotionalText"></include>
+         <include name="verifyPromoLinkTextIsClickable"></include>
+         <include name="verifyLinkTextText"></include>
+         <include name="validateSearch"></include>
+          <include name="validateSearchWithNegativeScenario"></include>
+           <include name="validateLanguageDropdown"></include>
+           <include name="RegisterWithNewEmail"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
